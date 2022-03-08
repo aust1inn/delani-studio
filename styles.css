@@ -45,7 +45,23 @@
     background-size: 100% 100%;
     text-align: center;
     color: white;
+    font-weight: bold;
 }
 .services h3 {
+    margin-top: 5%;
+}
+
+/* what we do */
+
+.what-we-do{
+    text-align: center;
+}
+.what-we-do h3  {
+    margin-top: 2%;
+}
+.our-services{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
     margin-top: 5%;
 }
