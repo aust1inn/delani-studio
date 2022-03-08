@@ -65,3 +65,17 @@
     justify-content: space-around;
     margin-top: 5%;
 }
+
+/* portfolio section styling */
+
+
+.portfolio img {
+    width: 20%;
+}
+
+.portfolio{
+    text-align: center;
+}
+.portfolio2 {
+    margin-top: 1%;
+}
