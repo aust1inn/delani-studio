@@ -36,3 +36,16 @@
 .about-us h3 {
     margin-top: 5%;
 }
+
+/* services brief description */
+
+.services{
+    background-image: url("./IMG/delani-images/delani-backgrounds/s_image.jpg");
+    height: 50vh;
+    background-size: 100% 100%;
+    text-align: center;
+    color: white;
+}
+.services h3 {
+    margin-top: 5%;
+}
