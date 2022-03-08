@@ -5,6 +5,8 @@
     overflow-x: hidden;
 }
 
+/* header styling */
+
 .header{
     background-image: url("./IMG/delani-images/delani-backgrounds/h_img.jpg");
     background-size: 100% 100%;
@@ -14,7 +16,20 @@
 .header-contents{
     text-align: center;
     color: white;
+    margin-top: 10%;
 }
 #welcome{
-    font-size: xx-large;
+    font-size: 40px;
+}
+#amazing{
+    font-size: 25px;
+}
+#mouse-click{
+    margin-top: 5%;
+}
+
+/* About us */
+
+.about-us{
+    text-align: center;
 }
