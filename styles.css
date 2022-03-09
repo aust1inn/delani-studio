@@ -59,6 +59,9 @@
 .what-we-do h3  {
     margin-top: 2%;
 }
+.what-we-do p {
+    font-size: small;
+}
 .our-services{
     display: flex;
     width: 100%;
