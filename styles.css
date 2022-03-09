@@ -75,7 +75,17 @@
 
 .portfolio{
     text-align: center;
+    margin-top: 20px;
 }
 .portfolio2 {
     margin-top: 1%;
+}
+
+/* contact us styling */
+
+.contact{
+    background-image: url("./IMG/delani-images/delani-backgrounds/c_image.jpg");
+    background-size: 100% 100%;
+    height: 70vh;
+    margin-top: 5%;
 }
