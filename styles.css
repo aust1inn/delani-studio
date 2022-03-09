@@ -88,4 +88,28 @@
     background-size: 100% 100%;
     height: 70vh;
     margin-top: 5%;
+    color: white;
+    text-align: center;
+}
+.contact h3 {
+    margin-top: 5%;
+}
+
+.contact1 {
+    display: flex;
+    justify-content: space-around;
+}
+.contact1 .form-control {
+    width: 400px;
+}
+.contact2 {
+    text-align: center;
+}
+.contact2 .form-control {
+    height: 40vh;
+    width: 70%;
+    margin-left: 17%;
+}
+.form-control {
+    background-color: transparent;
 }
