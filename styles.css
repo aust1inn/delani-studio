@@ -79,7 +79,7 @@
 /* portfolio section styling */
 
 .img1, .img2 , .img3 , .img4 , .img5 , .img6 , .img7 , .img8{
-    width: 30vh;
+    width: 35vh;
     height: 30vh;
     background-size: 100% 100%;
     position: relative;
@@ -131,6 +131,8 @@
 .portfolio1 , .portfolio2{
     display: flex;
     justify-content: space-around;
+    width: 80%;
+    margin-left: 8%;
 }
 
 .portfolio{
