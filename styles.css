@@ -63,6 +63,12 @@
     font-size: small;
     display: none;
 }
+
+.white{
+   border: solid 2px yellow;
+   background-color: white;
+}
+
 .our-services{
     display: flex;
     width: 100%;
@@ -72,9 +78,59 @@
 
 /* portfolio section styling */
 
+.img1, .img2 , .img3 , .img4 , .img5 , .img6 , .img7 , .img8{
+    width: 30vh;
+    height: 30vh;
+    background-size: 100% 100%;
+    position: relative;
+}
+.img1 {
+    background-image: url("./IMG/delani-images/delani-portfolio/work4.jpg");
+
+}
+.img2 {
+    background-image: url("./IMG/delani-images/delani-portfolio/work3.jpg");
+
+}
+.img3 {
+    background-image: url("./IMG/delani-images/delani-portfolio/work2.jpg");
+
+}
+.img4 {
+    background-image: url("./IMG/delani-images/delani-portfolio/work1.jpg");
+
+}
+.img5 {
+    background-image: url("./IMG/delani-images/delani-portfolio/work5.jpg");
+
+}
+.img6 {
+    background-image: url("./IMG/delani-images/delani-portfolio/work6.jpg");
+
+}
+.img7 {
+    background-image: url("./IMG/delani-images/delani-portfolio/work7.jpg");
+
+}
+.img8 {
+    background-image: url("./IMG/delani-images/delani-portfolio/work8.jpg");
+
+}
+.overlay {
+    color: blue;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(249, 255, 255);
+    opacity: 0.6;
+    display: none;
+}
 
 .portfolio img {
     width: 20%;
+}
+.portfolio1 , .portfolio2{
+    display: flex;
+    justify-content: space-around;
 }
 
 .portfolio{
