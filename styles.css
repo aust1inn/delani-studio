@@ -61,6 +61,7 @@
 }
 .what-we-do p {
     font-size: small;
+    display: none;
 }
 .our-services{
     display: flex;
