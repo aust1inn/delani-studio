@@ -13,10 +13,15 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $(".img1").hover(function() {
-        $(".img1").find(".overlay").css("display" , "block");
-    },
-    function () {
-        $(".img1").find(".overlay").css("display" , "none");
+    let classes = ["img1" , "img2" , "img3" , "img4" , "img5" , "img6" , "img7" , "img8"]
+
+    classes.forEach(element => {
+        $("." + element).hover(function() {
+            $("." + element).find(".overlay").css("display" , "block");
+        },
+        function () {
+            $("." + element).find(".overlay").css("display" , "none");
+        });
     });
+   
 });
