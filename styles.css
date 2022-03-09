@@ -118,10 +118,11 @@
 
 footer {
     margin-top: 3%;
+    text-align: center;
 }
 .socials {
     width: 80%;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 .socials img {
     padding: 15px;
