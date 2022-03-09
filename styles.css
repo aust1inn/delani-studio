@@ -113,3 +113,16 @@
 .form-control {
     background-color: transparent;
 }
+
+/* footer styling */
+
+footer {
+    margin-top: 3%;
+}
+.socials {
+    width: 80%;
+    margin-left: 20%;
+}
+.socials img {
+    padding: 15px;
+}
