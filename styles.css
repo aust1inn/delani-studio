@@ -190,3 +190,24 @@ footer {
 .socials img {
   padding: 15px;
 }
+
+/* media queries */
+
+@media  only screen and (max-width:750px){
+  .our-services {
+    flex-direction: column;
+  }
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8 {
+  width: 30vh;
+  height: 10vh;
+  
+}
+}
