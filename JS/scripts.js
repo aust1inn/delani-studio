@@ -83,9 +83,13 @@ $(document).ready(function() {
   $(".btn").click(function(event) {
     let name = $("#name").val();
     let email = $("#email").val();
+    let information = $("#information").val();
     let message = "we have received your message. Thank you for reaching out to us."
 
     event.preventDefault
-    alert(name + " " + message)
+    if (name != "" && email != "" ) {
+      alert(name + " " + message)
+
+    }
   });
 });
