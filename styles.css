@@ -117,12 +117,16 @@
 }
 .overlay {
   position: absolute;  
-  color: blue;
+  color: black;
   height: 100%;
   width: 100%;
   background-color: rgb(249, 255, 255);
   opacity: 0.6;
   display: none;
+}
+.overlay p {
+  margin-top: 80px;
+  font-weight: bolder;
 }
 
 .portfolio img {
