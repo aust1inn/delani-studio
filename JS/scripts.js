@@ -1,3 +1,5 @@
+// show and hide effect
+
 $(document).ready(function () {
   $(".design")
     .find("img")
@@ -44,6 +46,8 @@ $(document).ready(function () {
 
 });
 
+// hover effect syntax
+
 $(document).ready(function () {
   let classes = [
     "img1",
@@ -69,5 +73,19 @@ $(document).ready(function () {
           .css("display", "none");
       }
     );
+  });
+});
+
+
+// contact form pop-up message syntax
+
+$(document).ready(function() {
+  $(".btn").click(function(event) {
+    let name = $("#name").val();
+    let email = $("#email").val();
+    let message = "we have received your message. Thank you for reaching out to us."
+
+    event.preventDefault
+    alert(name + " " + message)
   });
 });
