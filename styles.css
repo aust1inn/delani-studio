@@ -90,6 +90,7 @@
   height: 30vh;
   background-size: 100% 100%;
   position: relative;
+  overflow: auto;
 }
 .img1 {
   background-image: url("./IMG/delani-images/delani-portfolio/work4.jpg");
@@ -125,8 +126,9 @@
   display: none;
 }
 .overlay p {
-  margin-top: 80px;
+  margin-top: 40%;
   font-weight: bolder;
+  font-size: large;
 }
 
 .portfolio img {
@@ -210,8 +212,20 @@ footer {
 .img6,
 .img7,
 .img8 {
-  width: 30vh;
+  width: 20vw;
   height: 10vh;
   
+}
+.overlay p {
+  margin-top: 0;
+}
+.header {
+  height: 60vh;
+}
+.contact {
+  height: 45vh;
+}
+.contact2 .form-control {
+  height: 25vh;
 }
 }
