@@ -5,6 +5,7 @@
   box-sizing: border-box;
   overflow-x: hidden;
   font-family: 'Smooch+Sans';
+
 }
 
 /* header styling */
@@ -47,6 +48,9 @@
   background-size: 100% 100%;
   text-align: center;
   color: white;
+  font-weight: bold;
+}
+h6 {
   font-weight: bold;
 }
 .services h3 {
